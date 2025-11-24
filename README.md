@@ -1,5 +1,11 @@
-# dockerfile
-A collection of dockerfile
+# docker-homelab
+A collection of docker compose file
+
+## Install Docker
+
+```shell
+curl -sSL https://get.docker.com | sudo sh
+```
 
 ## Portainer
 
