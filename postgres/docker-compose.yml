@@ -4,7 +4,7 @@ volumes:
     driver: local
 services:
   postgres:
-    image: postgres:${POSTGRES_VERSION}
+    image: ${POSTGRES_IMAGE}
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
